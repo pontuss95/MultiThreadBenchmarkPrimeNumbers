@@ -5,8 +5,10 @@ Very simple code that creates N threads (second input) and calculates how many p
 compile with -pthread library. 
 
 Example usage:
-gcc checkPrime.c -o checkPrime -pthread
 
+```sh
+gcc checkPrime.c -o checkPrime -pthread
+```
 
 ```sh
 ./checkPrime 100000000 1
